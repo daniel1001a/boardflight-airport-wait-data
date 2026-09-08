@@ -1,0 +1,13 @@
+iata,airport_name,city,weekday_worst_local_time,weekday_worst_wait_min,weekday_quietest_local_time,weekday_quietest_wait_min,weekend_worst_local_time,weekend_worst_wait_min,within_day_swing_ratio,weekend_minus_weekday_worst_min
+"AUS","Austin Bergstrom International","Austin","16:00",23,"19:00",3,"11:00",32,7.67,9
+"BNA","Nashville International","Nashville","12:00",10,"21:45",1,"06:00",12,10,2
+"BOS","Boston Logan International","Boston","18:45",15,"22:00",2,"16:00",18,7.5,3
+"DCA","Ronald Reagan Washington National","Washington","07:00",20,"22:00",1,"15:45",11,20,-9
+"FLL","Fort Lauderdale Hollywood International","Fort Lauderdale","09:00",29,"21:45",3,"08:00",19,9.67,-10
+"IAD","Washington Dulles International","Dulles","15:00",9,"05:00",2,"14:45",8,4.5,-1
+"JFK","John F. Kennedy International","New York","06:00",30,"05:00",13,"12:00",33,2.31,3
+"MSP","Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field","Minneapolis","08:00",23,"21:00",1,"06:00",25,23,2
+"PHL","Philadelphia International","Philadelphia","14:00",22,"22:00",4,"14:00",19,5.5,-3
+"SAN","San Diego International","San Diego","09:00",39,"22:00",5,"06:00",31,7.8,-8
+"SNA","John Wayne Orange County International","Santa Ana","06:00",15,"21:00",0,"15:00",18,15,3
+"TPA","Tampa International","Tampa","06:00",29,"22:00",2,"06:00",29,14.5,0
