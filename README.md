@@ -75,6 +75,13 @@ they are not "the data as of" a particular date, and they carry no holiday or se
 is about and what the validation covers. It is weaker for comparing absolute minutes *between*
 airports, since only the shape has been externally checked.
 
+## Site coverage
+
+All 12 airports stay in the data files here. The BoardFlight site (www.boardflight.com) shows
+hour-by-hour wait figures for 8 of them: AUS, BNA, BOS, DCA, JFK, SAN, SNA and TPA. The other 4
+(FLL, IAD, MSP and PHL) are kept in the data but are not shown on the site, because they have not
+yet passed the airport-page chart check against TSA's published hourly throughput.
+
 ## Reproducing and citing
 
 Every figure here is also rendered in prose at <https://www.boardflight.com/data>, generated from
