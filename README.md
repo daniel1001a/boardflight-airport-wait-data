@@ -79,10 +79,9 @@ airports, since only the shape has been externally checked.
 
 All 12 airports stay in the data files here. The BoardFlight site (www.boardflight.com) shows
 hour-by-hour wait figures on its /data page for 8 of them: AUS, BNA, BOS, DCA, JFK, SAN, SNA and
-TPA. The other 4 (FLL, IAD, MSP and PHL) are kept in the data and appear only on their own airport
-pages, not on /data, because they are not part of the independently validated study set. Those
-airport pages show a planning estimate built from a typical daily pattern, not a validated hourly
-measurement.
+TPA. The other 4 (FLL, IAD, MSP and PHL) are kept in the data files but show no hourly figures
+anywhere on the site, including their own airport pages, because they have not passed the
+schedule-based chart check.
 
 ## Reproducing and citing
 
