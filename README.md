@@ -6,6 +6,12 @@ a study of how much security wait times swing *within a single day* at US airpor
 Published by [BoardFlight](https://www.boardflight.com), which computes when to arrive at the
 airport for a specific flight. Free to use with attribution (CC BY 4.0).
 
+**Scope.** This dataset covers 12 airports. The boardflight.com/data page shows the 8 that also
+pass the schedule-derived check: AUS, BNA, BOS, DCA, JFK, SAN, SNA and TPA. FLL, IAD, MSP and PHL
+passed only the historical-seed check; they stay in the data files here but have no hourly
+numbers on the site. Unless a line says otherwise, the examples below use the 8 site-aligned
+airports.
+
 ---
 
 ## The finding
@@ -13,23 +19,27 @@ airport for a specific flight. Free to use with attribution (CC BY 4.0).
 "Arrive two hours early" is one number for every airport, every day, every hour. It isn't true
 anywhere.
 
-At most of the airports here, **when you arrive within the day matters more than which day you
+At most of the 8 site-aligned airports, **when you arrive within the day matters more than which day you
 fly.** The gap between the quietest travel hour and the worst hour, at the same airport on an
-ordinary weekday, runs as high as **23×**:
+ordinary weekday, runs as high as **20×**:
 
 | Airport | Worst weekday hour | Quietest travel hour | Swing |
 |---|---|---|---|
-| MSP — Minneapolis–Saint Paul | 23 min at 8 AM | 1 min at 9 PM | **23×** |
 | DCA — Reagan National | 20 min at 7 AM | 1 min at 10 PM | **20×** |
 | SNA — John Wayne Orange County | 15 min at 6 AM | 0 min at 9 PM | **15×** |
 | TPA — Tampa | 29 min at 6 AM | 2 min at 10 PM | **14.5×** |
+| BNA — Nashville | 10 min at 12 PM | 1 min at 9:45 PM | **10×** |
+
+In the full 12-airport historical dataset the largest swing is MSP (23×), which is not shown on
+the site.
 
 Two more results that cut against the usual advice:
 
-- **The worst hour is the morning, not the evening rush.** 6 AM is the single worst hour at more
-  airports here than any other hour of the day.
-- **The weekend is not reliably worse.** At 5 of the 12 airports the weekend peak is *lower* than
-  the weekday peak — at FLL by 10 minutes, at DCA by 9.
+- **The worst hour is the morning, not the evening rush.** 6 AM is the weekday worst hour at 3 of
+  the 8 site-aligned airports (JFK, SNA, TPA), more than any other hour.
+- **The weekend is not reliably worse.** At 2 of the 8 site-aligned airports the weekend peak is
+  *lower* than the weekday peak: at DCA by 9 minutes, at SAN by 8. Across the full 12-airport
+  historical dataset it is 5 of 12 (adding FLL by 10, PHL by 3 and IAD by 1).
 
 ## Files
 
@@ -55,9 +65,10 @@ Waits are in minutes to clear the security checkpoint.
 ## Method, and what these numbers are not
 
 **These are modelled medians, not measured observations.** They come from BoardFlight's
-hour-by-hour security-demand model — the same model behind every airport page on the site — read
-at the median (p50) for a traveler entering security at that time. They are not TSA-published wait
-times, and they are not crowdsourced reports.
+historical-seed hour-by-hour security-demand analysis, read at the median (p50) for a traveler entering security at that time. They are not TSA-published wait
+times, and they are not crowdsourced reports. At airports that pass the schedule-derived check,
+the airport pages on the site now use a separate schedule-derived curve, so their figures can
+differ from the historical-seed figures in this file.
 
 **Why only 12 airports.** BoardFlight profiles 33. Each airport's modelled all-day *shape* is
 checked against an independent, external source — TSA's published hourly checkpoint throughput —
@@ -85,7 +96,7 @@ schedule-based chart check.
 
 ## Reproducing and citing
 
-Every figure here is also rendered in prose at <https://www.boardflight.com/data>, generated from
+The figures for the 8 site-aligned airports are also rendered in prose at <https://www.boardflight.com/data>, generated from
 the same computation at build time. Nothing in this repository is transcribed by hand.
 
 > BoardFlight, *The Worst Time to Fly, Airport by Airport* (2026).
