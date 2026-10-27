@@ -70,10 +70,10 @@ times, and they are not crowdsourced reports. At airports that pass the schedule
 the airport pages on the site now use a separate schedule-derived curve, so their figures can
 differ from the historical-seed figures in this file.
 
-**Why only 12 airports.** BoardFlight profiles 33. Each airport's modelled all-day *shape* is
+**Why only 12 airports.** BoardFlight has scored 33 airports against this check (the site now profiles 61; the other 28 have not been scored yet). Each airport's modelled all-day *shape* is
 checked against an independent, external source — TSA's published hourly checkpoint throughput —
 for whether the peak lands at the right time and the daily profile has the right form. Only the
-12 airports that pass that check appear here. **The other 21 are excluded rather than published
+12 airports that pass that check appear here. **The other 21 scored airports are excluded rather than published
 with a caveat**: a shape we cannot independently verify does not get published as a finding.
 That check is on *shape only* — TSA throughput is used to validate when the peak occurs, never to
 set how many minutes the wait is.
