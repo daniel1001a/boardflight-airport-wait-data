@@ -1,5 +1,4 @@
 iata,airport_name,city,weekday_worst_local_time,weekday_worst_wait_min,weekday_quietest_local_time,weekday_quietest_wait_min,weekend_worst_local_time,weekend_worst_wait_min,within_day_swing_ratio,weekend_minus_weekday_worst_min
-"AUS","Austin Bergstrom International","Austin","16:00",23,"19:00",3,"11:00",32,7.67,9
 "BNA","Nashville International","Nashville","12:00",10,"21:45",1,"06:00",12,10,2
 "BOS","Boston Logan International","Boston","18:45",15,"22:00",2,"16:00",18,7.5,3
 "DCA","Ronald Reagan Washington National","Washington","07:00",20,"22:00",1,"15:45",11,20,-9

@@ -2,21 +2,8 @@
   "_doc": "Findings from BoardFlight's security-wait timing study, as published at https://www.boardflight.com/data. One row per airport. Waits are modelled median (p50) minutes to clear security, not measured observations — see README.md.",
   "sample_weekday": "2026-08-13",
   "sample_weekend": "2026-08-16",
-  "airports": 12,
+  "airports": 11,
   "rows": [
-    {
-      "iata": "AUS",
-      "airport_name": "Austin Bergstrom International",
-      "city": "Austin",
-      "weekday_worst_local_time": "16:00",
-      "weekday_worst_wait_min": 23,
-      "weekday_quietest_local_time": "19:00",
-      "weekday_quietest_wait_min": 3,
-      "weekend_worst_local_time": "11:00",
-      "weekend_worst_wait_min": 32,
-      "within_day_swing_ratio": 7.67,
-      "weekend_minus_weekday_worst_min": 9
-    },
     {
       "iata": "BNA",
       "airport_name": "Nashville International",
