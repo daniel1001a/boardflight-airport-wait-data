@@ -70,7 +70,7 @@ times, and they are not crowdsourced reports. At airports that pass the schedule
 the airport pages on the site now use a separate schedule-derived curve, so their figures can
 differ from the historical-seed figures in this file.
 
-**Why only 11 airports.** BoardFlight has scored 33 airports against this check (the site now profiles 116; the other 83 have not been scored yet). Each airport's modelled all-day *shape* is
+**Why only 11 airports.** BoardFlight has scored 33 airports against this check on the historical-seed curves used in this dataset (the site now profiles 116; the other 83 have not been scored on that basis; the site's own schedule-derived gate is a separate run with its own counts, shown on boardflight.com/methodology). Each airport's modelled all-day *shape* is
 checked against an independent, external source — TSA's published hourly checkpoint throughput —
 for whether the peak lands at the right time and the daily profile has the right form. Only the
 11 airports that pass that check appear here. **The other 22 scored airports are excluded rather than published
